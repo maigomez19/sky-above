@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mailen Gomez, DWN3AV PWA</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon/favicon-16x16.png">
+        <link rel="manifest" href="imgs/favicon/site.webmanifest">
+        <link rel="mask-icon" href="imgs/favicon/safari-pinned-tab.svg" color="#33ccc">
+        <meta name="msapplication-TileColor" content="#33cccc">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- Fuentes -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar p-2">
+                <div class="container d-flex justify-content-center align-items-center">
+                    <div class="p-0">
+                        <img src="imgs/logoSA-blanco.png" alt="Logo sky above" class="img-fluid" id="logoSA">
+                    </div>
+                </div>
+            </nav>
+
+            <section class="d-flex align-items-center justify-content-center p-0 m-0" id="bienvenido">
+                <div class="container">
+                    <h1 class="text-center">Bienvenido/a Sky Above</h1>
+
+                    <p class="col-lg-6 m-auto p-0 text-center">Un sitio en el que podrás buscar el clima actual de cualquier ciudad, provincia o país en el mundo. Utilizarlo es muy fácil, sólo tienes que ingresar a continuación la ubicación que es de tu interés.</p>
+                </div>
+            </section>
+
+            <p class="text-center m-0 p-3" id="instrucciones">Puede ingresar una ciudad y un país o solo un país, como usted más desee.</p>
+        </header>
+
+        <main class="p-4 p-md-0">
+            <div class="container">
+                <form class="row mt-5 mb-4 d-flex align-items-center">
+                    <div class="row col-12 col-md-10 p-0">
+                        <div class="ciudad p-0">
+                            <label for="ciudad">Ciudad/provincia</label>
+                            <input id="ciudad" value="" type="text" class="ml-md-2 mr-md-2 mb-2 mb-md-0" required />
+                        </div>
+
+                        <div class="pais p-0">
+                            <label for="pais">País</label>
+                            <input id="pais" value="" type="text" class="ml-md-2 mr-md-2" required />
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-2 p-0 mt-3 mt-md-0">
+                        <button id="buscar" type="button">Buscar</button>
+                    </div>
+                </form>
+    
+                <section id="resultado" class="mb-5">
+                    <h2 class="d-none">Sin resultados</h2>
+
+                    <p class="mensaje-inicio d-flex align-items-center justify-content-center text-center row">Aún no se ha ingresado una ciudad. Por favor ingresa una.</p>
+                </section>
+            </div>
+        </main>
+
+        <footer class="p-2">
+            <div class="container-fluid col-12 text-center p-0">
+                <img src="imgs/logoSA-blanco.png" width="180" height="75" alt="logo sky above" class="img-fluid mb-3">
+
+                <div>
+                    <p>&copy;Sky Above 2022. Todos los derechos reservados.</p>
+                    <p>Mailen Gomez - Escuela Da Vinci TP N°1 PWA</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/main.js"></script> 
+
+        <!-- Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>

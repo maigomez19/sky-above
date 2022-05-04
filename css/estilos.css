@@ -1,0 +1,190 @@
+/* Link paleta de colores:
+https://coolors.co/33cccc-152140-071770-6571bf-100342
+*/
+
+/*---General---*/
+*{
+    font-family: 'Quicksand', sans-serif
+}
+
+html, body {
+    overflow-x: hidden; 
+}
+
+nav {
+    background-color: #152140ff;
+}
+
+#logoSA {
+    max-width: 170px !important;
+    display: block !important;
+}
+
+footer {
+    background-color: #152140ff;
+    color: #fff;
+    border-top: 4px solid #6571bfff;
+    font-size: .9em;
+}
+
+/*---Header---*/
+h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+header #bienvenido {
+    background-image: linear-gradient(rgb(21, 33, 64, .4), rgba(21, 33, 64, .4)), url('../imgs/vista-ciudad.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 45%;
+    color: #fff;
+    height: 300px;
+}
+
+header #instrucciones {
+    background-color: #6571bfff;
+    color: #fff;
+    font-weight: 500;
+}
+
+/*---Main---*/
+.mensaje-inicio {
+    background: #ebe8e8;
+    border-radius: 5px;
+    height: 200px;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.mensaje-inicio2 {
+    background: #ebe8e8;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1em;
+    height: 220px;
+}
+
+form {
+    justify-content: space-around !important;
+}
+
+form label {
+    font-weight: 600;
+    font-size: 1em;
+    color: #071770ff;
+}
+
+form input[type="text"] {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    text-transform: capitalize;
+}
+
+form button {
+    background-color: #071770ff;
+    border: 1px solid #071770ff;
+    color: #fff;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+form button:focus {
+    outline: none;
+}
+
+form button:hover {
+    background-color: rgb(36, 56, 170);
+    border: 1px solid rgb(36, 56, 170);
+    transition: .5s all; 
+}
+
+.mensaje-inicio2 img {
+    max-width: 130px !important;
+}
+
+.clima-info {
+    background: #ebe8e8;
+    border-radius: 5px;
+}
+
+.clima-info .icono-estado {
+    margin-bottom: 1rem !important;
+}
+
+.clima-info #icono-clima {
+    max-width: 130px !important;
+}
+
+.clima-info ul li {
+    list-style-type: none;
+    font-size: 1.1em;
+    padding: 0;
+    color: #000;
+    font-weight: 500;
+}
+
+.clima-info ul li span {
+    vertical-align: -6px !important;
+    color: #100342ff !important;
+}
+
+.clima-info .temp-actual p {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.clima-info #mapa {
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+}
+
+.clima-info .div-mapa {
+    padding: 0;
+}
+
+.clima-info h2 {
+    color: #100342ff;
+}
+
+.clima-info .encabezado {
+    border-bottom: 2px solid #100342ff;
+    padding: 0;
+    padding-bottom: .5em;
+    margin-bottom: .5em;
+}
+
+.clima-info .encabezado p {
+    font-size: .9em;
+    padding: 0;
+    color: #33cccc;
+    font-weight: 600;
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+    
+    form input[type="text"] {
+        width: 100%;
+    }
+
+    form label {
+        width: 100%;
+        text-align: center;
+    }
+
+    form .ciudad, form .pais {
+        width: 100%;
+    }
+
+    .clima-info ul {
+        margin-bottom: 1rem !important;
+    }
+}
