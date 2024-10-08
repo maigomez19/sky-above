@@ -1,5 +1,5 @@
 ## Sky Above
-Este sitio es una API que obtiene información instantánea sobre el clima de cualquier ciudad del mundo. 
+Esta API permite obtener información en tiempor real sobre el clima de cualquier ciudad del mundo. Proporciona datos precisos y actualizados, como temperatura, humedad, sensación térmica y más, facilitando el acceso a pronósticos instantáneos. 
 
 ✔️ Cuenta con un diseño responsivo.
 
