@@ -1,4 +1,5 @@
-## Sky Above
+## <img src="imgs/logoSA-blanco.png" alt="Logo Sky Above" height="100"/>
+
 Esta API permite obtener información en tiempor real sobre el clima de cualquier ciudad del mundo. Proporciona datos precisos y actualizados, como temperatura, humedad, sensación térmica y más, facilitando el acceso a pronósticos instantáneos. 
 
 ✔️ Cuenta con un diseño responsivo.
